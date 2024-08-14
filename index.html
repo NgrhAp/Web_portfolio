@@ -19,6 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body
     class="w-full overflow-x-hidden"
@@ -110,25 +111,32 @@
       </nav>
 
       <div class="w-full flex flex-col items-start space-y-4 pl-11 pr-8">
-        <h1
-          class="text-8xl font-bold"
-          style="font-family: 'Plus Jakarta Sans', sans-serif"
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h1
+            class="text-8xl font-bold"
+            style="font-family: 'Plus Jakarta Sans', sans-serif"
+          >
+            👋 Hi there,
+          </h1>
+          <h1
+            class="text-8xl font-bold pb-2"
+            style="font-family: 'Plus Jakarta Sans', sans-serif"
+          >
+            I'm Ngurah <span class="text-purple-800">Arya</span>
+          </h1>
+          <p class="text-xl text-gray-600 text-justify">
+            A System Information student at Universitas BSI with a strong
+            interest in mobile and web application development. I have gained
+            valuable experience and received positive feedback in mobile app
+            development, and I am also keen to expand my skills in fullstack
+            development.
+          </p>
+        </div>
+        <div
+          class="flex space-x-6 pt-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
-          👋 Hi there,
-        </h1>
-        <h1
-          class="text-8xl font-bold pb-2"
-          style="font-family: 'Plus Jakarta Sans', sans-serif"
-        >
-          I'm Ngurah <span class="text-purple-800">Arya</span>
-        </h1>
-        <p class="text-xl text-gray-600 text-justify">
-          A System Information student at Universitas BSI with a strong interest
-          in mobile and web application development. I have gained valuable
-          experience and received positive feedback in mobile app development,
-          and I am also keen to expand my skills in fullstack development.
-        </p>
-        <div class="flex space-x-6 pt-5">
           <a
             href="https://www.linkedin.com/in/ngurah-arya-pratama-4314811b5/"
             target="_blank"
@@ -146,7 +154,11 @@
         </div>
       </div>
 
-      <div class="w-full flex flex-col items-center justify-center text-center">
+      <div
+        class="w-full flex flex-col items-center justify-center text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <img
           src="images/1723129199134.jpg"
           alt="Profile Image"
@@ -156,8 +168,8 @@
     </header>
 
     <!-- Services -->
-    <section style="height: 60vh" class="pt-24" id="service">
-      <div style="padding-left: 4%">
+    <section style="height: 70vh" class="pt-24" id="service">
+      <div style="padding-left: 4%" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="text-xl pb-2 text-gray-500 pl-2">S E R V I C E S</h2>
         <h3
           class="text-5xl font-bold text-purple-800"
@@ -176,6 +188,8 @@
       <div class="flex justify-center pt-20">
         <!-- Mobile Dev -->
         <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
           class="max-w-md p-6 bg-white border-2 border-purple-800 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700"
           style="margin-right: 3rem"
         >
@@ -196,6 +210,8 @@
         </div>
         <!-- FrontEnd Dev -->
         <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
           class="max-w-md p-6 m-10 bg-white border-2 border-purple-800 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700"
           style="margin-right: 3rem"
         >
@@ -212,6 +228,8 @@
         </div>
         <!-- Backend Dev -->
         <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
           class="max-w-md p-6 m-10 bg-white border-2 border-purple-800 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700"
         >
           <img src="images/backend-coding.png" class="h-12" alt="Survey Icon" />
@@ -231,20 +249,27 @@
     <!-- My Projects -->
     <section class="pt-24 pb-20 h-screen" id="project">
       <div class="container mx-auto px-8">
-        <h2 class="text-xl pb-2 text-gray-500 pl-2">P O R T F O L I O S</h2>
-        <h3
-          class="text-5xl pb-2 font-bold text-purple-800"
-          style="font-family: 'Plus Jakarta Sans', sans-serif"
-        >
-          My Latest Works
-        </h3>
-        <div class="relative mt-3">
-          <div
-            class="absolute inset-x-0 bottom-0 bg-gray-600 h-1"
-            style="width: 24%"
-          ></div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="text-xl pb-2 text-gray-500 pl-2">P O R T F O L I O S</h2>
+          <h3
+            class="text-5xl pb-2 font-bold text-purple-800"
+            style="font-family: 'Plus Jakarta Sans', sans-serif"
+          >
+            My Latest Works
+          </h3>
+          <div class="relative mt-3">
+            <div
+              class="absolute inset-x-0 bottom-0 bg-gray-600 h-1"
+              style="width: 24%"
+            ></div>
+          </div>
         </div>
-        <div class="max-w-3xl mx-auto" style="padding-top: 4rem">
+        <div
+          class="max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          style="padding-top: 4rem"
+        >
           <div
             id="default-carousel"
             class="relative border border-gray-300 w-full"
@@ -506,24 +531,27 @@
     <!-- Skills -->
     <section style="height: 60vh" class="pt-24" id="skill">
       <div style="padding-left: 4%">
-        <h2 class="text-xl pb-2 text-gray-500 pl-2">
-          E D U C A T I O N A L&nbsp;&nbsp;&nbsp;J O U R N E Y
-        </h2>
-        <h3
-          class="text-5xl font-bold text-purple-800"
-          style="font-family: 'Plus Jakarta Sans', sans-serif"
-        >
-          Education & Skills
-        </h3>
-        <div class="relative mt-5 mb-10">
-          <div
-            class="absolute inset-x-0 bottom-0 bg-gray-600 h-1"
-            style="width: 24%"
-          ></div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="text-xl pb-2 text-gray-500 pl-2">
+            E D U C A T I O N A L&nbsp;&nbsp;&nbsp;J O U R N E Y
+          </h2>
+          <h3
+            class="text-5xl font-bold text-purple-800"
+            style="font-family: 'Plus Jakarta Sans', sans-serif"
+          >
+            Education & Skills
+          </h3>
+          <div class="relative mt-5 mb-10">
+            <div
+              class="absolute inset-x-0 bottom-0 bg-gray-600 h-1"
+              style="width: 24%"
+            ></div>
+          </div>
         </div>
-        <div class="pt-10 flex">
+
+        <div class="pt-10 flex" >
           <!-- Kolom Kiri (2/5) -->
-          <div style="width: 40%" class="flex">
+          <div style="width: 40%" class="flex" data-aos="fade-up" data-aos-duration="1500">
             <div class="">
               <h1 class="text-3xl font-semibold pb-5">
                 Bina Sarana Informatika <br />
@@ -537,7 +565,7 @@
           </div>
 
           <!-- Kolom Kanan (3/5) -->
-          <div class="flex" style="width: 50%">
+          <div class="flex" style="width: 50%" data-aos="fade-up" data-aos-duration="2000">
             <div class="w-5 bg-gray-400 mr-4"></div>
             <div class="pl-5">
               <h1 class="text-xl text-gray-600 text-justify pb-8">
@@ -566,7 +594,7 @@
     </section>
 
     <!-- Contact Us -->
-    <section style="height: 50vh" class="pt-24" id="contact">
+    <section style="height: 50vh" data-aos="fade-up" data-aos-duration="1000" class="pt-24" id="contact">
       <div style="padding-left: 4%" class="">
         <div class="pt-10 flex">
           <!-- Kolom Kiri (2/5) -->
@@ -702,5 +730,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
