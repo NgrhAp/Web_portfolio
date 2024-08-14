@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="scroll-behavior: smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,9 +39,11 @@
             <button
               type="button"
               class="text-purple-800 bg-white border border-purple-800 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-lg px-6 py-3 text-center dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              onclick="window.open('https://drive.google.com/file/d/1xl0mravnk-ox_3_zX42z-Pd7FR0sAb7W/view?usp=sharing', '_blank')"
             >
-              Let's Talk ->
+              Resume
             </button>
+
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -51,7 +53,7 @@
             >
               <span class="sr-only">Open main menu</span>
               <svg
-                class="w-8 "
+                class="w-8"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -72,32 +74,32 @@
             id="navbar-sticky"
           >
             <ul
-              class="flex flex-col p-4 md:p-0 mt-4 font-semibold  space-y-2 md:space-y-0 md:space-x-8 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              class="flex flex-col p-4 md:p-0 mt-4 font-semibold space-y-2 md:space-y-0 md:space-x-8 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
             >
               <li>
                 <a
-                  href="#"
-                  class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="#service"
                   class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >Services</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#project"
+                  class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skill"
+                  class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Skill</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
                   class="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >Contact</a
                 >
@@ -127,16 +129,18 @@
           and I am also keen to expand my skills in fullstack development.
         </p>
         <div class="flex space-x-6 pt-5">
-          <a href="https://www.linkedin.com" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/ngurah-arya-pratama-4314811b5/"
+            target="_blank"
             ><i class="fab fa-linkedin text-4xl"></i
           ></a>
-          <a href="https://github.com" target="_blank"
+          <a href="https://github.com/NgurahAp" target="_blank"
             ><i class="fab fa-github text-4xl"></i
           ></a>
-          <a href="https://www.facebook.com" target="_blank"
+          <a href="https://web.facebook.com/ngurah.pratama.37/" target="_blank"
             ><i class="fab fa-facebook text-4xl"></i
           ></a>
-          <a href="https://www.instagram.com" target="_blank"
+          <a href="https://www.instagram.com/_ngrhap/?hl=en" target="_blank"
             ><i class="fab fa-instagram text-4xl"></i
           ></a>
         </div>
@@ -152,7 +156,7 @@
     </header>
 
     <!-- Services -->
-    <section style="height: 60vh">
+    <section style="height: 60vh" class="pt-24" id="service">
       <div style="padding-left: 4%">
         <h2 class="text-xl pb-2 text-gray-500 pl-2">S E R V I C E S</h2>
         <h3
@@ -225,7 +229,7 @@
     </section>
 
     <!-- My Projects -->
-    <section class="pt-20 pb-20 h-screen">
+    <section class="pt-24 pb-20 h-screen" id="project">
       <div class="container mx-auto px-8">
         <h2 class="text-xl pb-2 text-gray-500 pl-2">P O R T F O L I O S</h2>
         <h3
@@ -500,7 +504,7 @@
     </section>
 
     <!-- Skills -->
-    <section style="height: 60vh">
+    <section style="height: 60vh" class="pt-24" id="skill">
       <div style="padding-left: 4%">
         <h2 class="text-xl pb-2 text-gray-500 pl-2">
           E D U C A T I O N A L&nbsp;&nbsp;&nbsp;J O U R N E Y
@@ -562,7 +566,7 @@
     </section>
 
     <!-- Contact Us -->
-    <section style="height: 50vh">
+    <section style="height: 50vh" class="pt-24" id="contact">
       <div style="padding-left: 4%" class="">
         <div class="pt-10 flex">
           <!-- Kolom Kiri (2/5) -->
@@ -612,9 +616,12 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col items-center justify-center space-y-6">
           <div class="flex space-x-4">
-            <a href="#" class="hover:text-gray-300 transition duration-300">
+            <a
+              href="https://web.facebook.com/ngurah.pratama.37/"
+              class="hover:text-gray-300 transition duration-300"
+            >
               <svg
-                class="w-8 "
+                class="w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -626,21 +633,27 @@
                 />
               </svg>
             </a>
-            <a href="#" class="hover:text-gray-300 transition duration-300">
+            <a
+              href="https://www.linkedin.com/in/ngurah-arya-pratama-4314811b5/"
+              class="hover:text-gray-300 transition duration-300"
+            >
               <svg
-                class="w-8 "
+                class="w-7"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
                 <path
-                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
                 />
               </svg>
             </a>
-            <a href="#" class="hover:text-gray-300 transition duration-300">
+            <a
+              href="https://www.instagram.com/_ngrhap/?hl=en"
+              class="hover:text-gray-300 transition duration-300"
+            >
               <svg
-                class="w-8 "
+                class="w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -652,9 +665,12 @@
                 />
               </svg>
             </a>
-            <a href="#" class="hover:text-gray-300 transition duration-300">
+            <a
+              href="https://github.com/NgurahAp"
+              class="hover:text-gray-300 transition duration-300"
+            >
               <svg
-                class="w-8 "
+                class="w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
